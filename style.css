@@ -1,0 +1,88 @@
+/* Genel sayfa düzeni */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+/* Logo alanı */
+.logo {
+  margin-top: 120px;
+}
+
+/* Arama kutusu */
+.search-container {
+  margin-top: 20px;
+}
+
+.search-box {
+  width: 480px;
+  height: 44px;
+  border: none;
+  border-radius: 24px; /* Kenarları yuvarlama */
+  box-shadow: 0 1px 6px rgba(32, 33, 36, 0.28);
+  padding: 0 40px; /* İç boşluklar */
+  font-size: 16px;
+}
+
+/* Arama simgesi ve ses simgesi */
+.search-icons {
+  position: relative;
+  width: 480px;
+  margin: 0 auto;
+}
+
+.search-icons img {
+  position: absolute;
+  top: 10px;
+  width: 24px;
+  height: 24px;
+}
+
+.search-icon {
+  left: 10px;
+}
+
+.voice-icon {
+  right: 10px;
+}
+
+/* Butonlar */
+.button-container {
+  margin-top: 30px;
+}
+
+.button-container button {
+  background-color: #f8f9fa;
+  border: 1px solid #f2f2f2;
+  color: #5f6368;
+  font-size: 14px;
+  font-family: Arial, sans-serif;
+  height: 36px;
+  padding: 0 16px;
+  margin: 6px;
+  border-radius: 4px;
+  box-shadow: 0 1px 1px rgba(0,0,0,0.1);
+  cursor: pointer;
+}
+
+/* Footer */
+footer {
+  background-color: #f2f2f2;
+  padding: 15px 0;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+
+footer ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+footer li {
+  display: inline;
+  margin: 0 10px;
+}
